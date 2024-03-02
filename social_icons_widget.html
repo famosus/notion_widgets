@@ -165,7 +165,9 @@
       function navigate(id) {
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
-
+else if (id === "gumroad") {
+          window.open("https://notionarray.gumroad.com/", '_blank').focus(); //Add the url to your gumroad page or account
+        }
         if (id === "blog")
           window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
 
