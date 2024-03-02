@@ -117,12 +117,6 @@
         <span class="icon"><i class="fab fa-facebook"></i></span>
       </div>
       <!-- End facebook Icon -->
-      
-    <!-- Start gumroad Icon -->
-      <div id="gumroad" onclick="navigate(this.id)" class="fill gumroad">
-        <span class="icon"><i class="fab fa-gumroad"></i></span>
-      </div>
-      <!-- End gumroad Icon -->
 
       <!-- Start instagram Icon -->
       <div id="instagram" onclick="navigate(this.id)" class="fill instagram">
@@ -165,9 +159,7 @@
       function navigate(id) {
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
-else if (id === "gumroad") {
-          window.open("https://notionarray.gumroad.com/", '_blank').focus(); //Add the url to your gumroad page or account
-        }
+
         if (id === "blog")
           window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
 
